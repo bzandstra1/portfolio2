@@ -69,7 +69,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={bart} layout="fill" objectFit="cover" />
+              <Image src={bart} layout="fill" objectFit="cover" alt='avatar version of me'/>
             </div>
           </div>
         </section>
@@ -77,15 +77,15 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since 2015, I have been in love with digital marketing.  Google Ads, Social Media, SEO, all of it.  I love the competitive nature of digital marketing, one business trying to outrank another.  However, I decided to focus on building websites in an SEO-optimized way as my specialty, studying website builders like Wordpress and Wix, front end technologies like React, and also studying SEO best practices. Most of my experience at this point comes from self-obtained knowledge and picking up projects on my own.  I have spent most of my years working in the restaurant industry, mainly in kitchens.  However, along my journey, I've gained incredible knowledge, and have developed valuable skills.  I obtained a digital media certificate from my local community college (AB-Tech), where I learned how to effectively use design tools like Adobe Illustrator, Photoshop, and Figma.  I can code effectively in      
+              Since 2015, I have been in love with digital marketing.  Google Ads, Social Media, SEO, all of it.  I love the competitive nature of digital marketing, one business trying to outrank another.  However, I decided to focus on building websites in an SEO-optimized way as my specialty, studying website builders like Wordpress and Wix, front end technologies like React, and also studying SEO best practices. Most of my experience at this point comes from self-obtained knowledge and picking up projects on my own.  I have spent most of my years working in the restaurant industry, mainly in kitchens.  However, along my journey, I've gained incredible knowledge, and have developed valuable skills.  I obtained a digital media certificate from my local community college AB-Tech, where I learned how to effectively use design tools like Adobe Illustrator, Photoshop, and Figma.  I can code effectively in      
               <span className="text-teal-500"> HTML, CSS, and JS. </span>
-              I am knowledgable with <span className="text-teal-500">Wordpress, PHP, Create React App, NextJS, and GatsbyJS. </span>  In the little free time I have, I like to go disc golfing ("frisbee golf", "frolf") during the day, or perhaps attend a concert in the evening.
+              I am knowledgable with <span className="text-teal-500">Wordpress, PHP, Create React App, NextJS, and GatsbyJS. </span>  In the little free time I have, I like to go disc golfing "frisbee golf", "frolf" during the day, or perhaps attend a concert in the evening.
             </p>
             
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt='designs logo'/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -100,7 +100,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt='coding logo'/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Coding
               </h3>
@@ -114,7 +114,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">PHP</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt='seo logo'/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">SEO</h3>
               <p className="py-2">
                 Onsite optimization and content creation for off-site SEO
@@ -151,6 +151,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt='company 1'
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -161,6 +162,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt='company 2'
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -171,6 +173,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt='company 3'
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -181,6 +184,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt='company 4'
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -191,6 +195,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt='company 5'
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -201,6 +206,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt='company 6'
               /></a>
             </div>
           </div>
